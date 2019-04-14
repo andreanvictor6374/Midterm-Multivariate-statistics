@@ -1,6 +1,7 @@
 '''
 Midterm project Multivariate statistic Analyasis
 By:Victor Andrean (D10702808)
+April 2019
 '''
 import numpy as np
 import pandas as pd
