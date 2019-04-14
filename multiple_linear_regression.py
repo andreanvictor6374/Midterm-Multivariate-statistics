@@ -228,7 +228,8 @@ for i in range(0,numCV):
     reg.fit(x_train,y_train)
     y_pred1=reg.predict(x_test)
     y_pred1=10**y_pred1
-      
+    
+'''y_pred2 is calculated step by step using a code built from scratch to validate the result yield by sikit-learn package'''      
     b_hat,sc_X,sc_y=regressionFuncFit(x_train,y_train)
     y_pred2=regressionFuncPredict(x_test,y_test,sc_X,sc_y,b_hat)[:,0]
     y_pred2=10**y_pred2
